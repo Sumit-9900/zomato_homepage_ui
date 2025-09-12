@@ -1,0 +1,178 @@
+{
+  "biryani": {
+    "recommended": [
+      {
+        "id": 1,
+        "title": "RNR Biryani",
+        "imageUrl": [
+          "https://imgs.search.brave.com/5byTQbkAEAzWpFdurlS8Gw590T42TpEJBCEzLVEJOSo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbS53/aGF0c2hvdC5pbi9p/bWcvMjAyMS9KYW4v/cm5yLTItY3JvcHBl/ZC0xNjExNTUwNjk3/LmpwZz93cD0x"
+        ],
+        "deliveryTime": "25-30 mins",
+        "rating": 4.8,
+        "distanceFromHere": "2.1 km",
+        "specialOrder": "Hyderabadi Dum Biryani",
+        "offer": "Flat 50% OFF",
+        "isAd": false
+      },
+      {
+        "id": 2,
+        "title": "Behrouz Biryani",
+        "imageUrl": [
+          "https://imgs.search.brave.com/y3swsBXvBCHxB8lH52Q-tBQqWeBB7Jwusm9O_RJ0Pys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saDUu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3Av/QUYxUWlwTVNiVEY4/WHdkaGgyQ2dmMlVT/bm9kLTdFZW5sVFQy/WXpGcnJhU3Y9dzQ4/MC1oMzAwLWstbi1y/dw"
+        ],
+        "deliveryTime": "30-35 mins",
+        "rating": 4.2,
+        "distanceFromHere": "3.5 km",
+        "specialOrder": "Mughlai Chicken Biryani",
+        "offer": "₹150 OFF on ₹499",
+        "isAd": false
+      },
+      {
+        "id": 3,
+        "title": "Paradise Biryani",
+        "imageUrl": [
+          "https://imgs.search.brave.com/CwqiQheq8UwxIQ0hVXsxvSB78nkQW0UTAjjF5dXwqJg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90Yi1z/dGF0aWMudWJlci5j/b20vcHJvZC9pbWFn/ZS1wcm9jL3Byb2Nl/c3NlZF9pbWFnZXMv/NTE1NTg3MGJmODYx/ZWJhZTkxOTNlYjRm/MjBjOTc2YjMvMGZi/Mzc2ZDFkYTU2YzA1/NjQ0NDUwMDYyZDI1/YzVjODQuanBlZw"
+        ],
+        "deliveryTime": "20-25 mins",
+        "rating": 4.6,
+        "distanceFromHere": "1.8 km",
+        "specialOrder": "Special Chicken Dum Biryani",
+        "offer": "Free Delivery",
+        "isAd": false
+      },
+      {
+        "id": 4,
+        "title": "Meghana Foods",
+        "imageUrl": [
+          "https://imgs.search.brave.com/weYGC2MQtuEpiW6DtF5_V10ojfZq8r0CfcdAoeF2VCk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/ZGVmX2NvbnRlbnRf/Y2F0ZWdvcnkvbWVn/aGFuYS1mb29kcy9z/Y3JlZW5zaG90LTQt/bWVnaGFuYS1mb29k/cy00LThqampiLmpw/Zz9jbHI9IzMzMzMz/Mz93PTM4NDAmcT03/NQ"
+        ],
+        "deliveryTime": "28-33 mins",
+        "rating": 3.8,
+        "distanceFromHere": "4.0 km",
+        "specialOrder": "Spicy Chicken Biryani",
+        "offer": "20% OFF upto ₹100",
+        "isAd": false
+      },
+      {
+        "id": 5,
+        "title": "Biryani Blues",
+        "imageUrl": [
+          "https://imgs.search.brave.com/dCtw2BK81BYDhjvr4uhQbKN3XVDHs7CdU9KfkmwqOsc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/ZGVmX2NvbnRlbnRf/Y2F0ZWdvcnkvYmly/eWFuaS1ibHVlcy9i/aXJ5YW5pLWJsdWVz/LTk5Mi1xcXJ1ai5q/cGc_dz0zODQwJnE9/NzU"
+        ],
+        "deliveryTime": "30-40 mins",
+        "rating": 3.4,
+        "distanceFromHere": "2.9 km",
+        "specialOrder": "Lucknowi Mutton Biryani",
+        "offer": "Buy 1 Get 1",
+        "isAd": false
+      },
+      {
+        "id": 6,
+        "title": "Hyderabad Biryani House",
+        "imageUrl": [
+          "https://imgs.search.brave.com/wqboKGcr171pFNuqVEd0yCCrZIQ9VdkgRAtCSS09Njk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuY250cmF2ZWxs/ZXIuaW4vcGhvdG9z/LzY2MTNhZTA0YjVk/ZDJkZjU5MWRlMWUw/Mi9tYXN0ZXIvd18x/NjAwLGNfbGltaXQv/NjM5NzA0MDIw"
+        ],
+        "deliveryTime": "35-40 mins",
+        "rating": 2.8,
+        "distanceFromHere": "5.2 km",
+        "specialOrder": "Authentic Hyderabadi Biryani",
+        "offer": "₹100 OFF on ₹399",
+        "isAd": false
+      },
+      {
+        "id": 7,
+        "title": "Empire Restaurant",
+        "imageUrl": [
+          "https://imgs.search.brave.com/ml3meewIBNZ-nKl_fcMRt0-wOA0hg4KdRZn_UQYNN_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXNp/emVyLm90c3RhdGlj/LmNvbS92My9waG90/b3MvNTM0MzU5ODkt/Mz93aWR0aD0xMjgw/JmhlaWdodD03MjAm/d2VicD10cnVl"
+        ],
+        "deliveryTime": "22-28 mins",
+        "rating": 4.2,
+        "distanceFromHere": "1.2 km",
+        "specialOrder": "Chicken 65 Biryani",
+        "offer": "Free Drink with Biryani",
+        "isAd": false
+      },
+      {
+        "id": 8,
+        "title": "Dindigul Thalappakatti",
+        "imageUrl": [
+          "https://imgs.search.brave.com/7M-frkFBfJQfscJ6uBUp99ZgZH010_RlgAZ3oQNwxVo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3JlZW5ob2xpZGF5/dHJhdmVscy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTkv/MTIvRGluZGlndWwt/VGhhbGFwcGFrYXR0/aS1SZXN0YXVyYW50/LTEuanBn"
+        ],
+        "deliveryTime": "40-45 mins",
+        "rating": 1.8,
+        "distanceFromHere": "6.0 km",
+        "specialOrder": "Thalappakatti Mutton Biryani",
+        "offer": "Flat 30% OFF",
+        "isAd": false
+      },
+      {
+        "id": 9,
+        "title": "Ammi's Biryani",
+        "imageUrl": [
+          "https://imgs.search.brave.com/OCoQJUuw7HiZ2KjXra1c5LnYaSoB59frIZOr9oPYFBs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/Nzc4ODk5OS9waG90/by90cmFkaXRpb25h/bC1pbmRpYW4taG9t/ZW1hZGUtZWdnLWJp/cnlhbmkuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXJOVGRK/Zk9FREpCbFh5V21j/ZUlvd3M4M1lpamxR/N2EyZzZsejM2dnhO/RWc9"
+        ],
+        "deliveryTime": "25-30 mins",
+        "rating": 1.6,
+        "distanceFromHere": "2.4 km",
+        "specialOrder": "Egg Biryani",
+        "offer": "₹75 OFF on ₹299",
+        "isAd": false
+      },
+      {
+        "id": 10,
+        "title": "Nandhana Palace",
+        "imageUrl": [
+          "https://imgs.search.brave.com/8TcmHQD93eDKtHk1cLLKwYfU2J8axQ3AJuz8kYKwAcg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL3YyL2Nv/bXAvY2hlbm5haS9s/My8wNDRweHg0NC54/eDQ0LjIzMDgxOTA1/MDY0MS5hMmwzL2Nh/dGFsb2d1ZS9uYW5k/aGFuYS1wYWxhY2Ut/YW5kaHJhLXN0eWxl/LXJlc3RhdXJhbnQt/Y2hyb21lcGV0LWNo/ZW5uYWktYW5kaHJh/LXJlc3RhdXJhbnRz/LXVuYWplcDN2Z2Uu/anBnP3c9Mzg0MCZx/PTc1"
+        ],
+        "deliveryTime": "32-38 mins",
+        "rating": 3.4,
+        "distanceFromHere": "3.9 km",
+        "specialOrder": "Andhra Chicken Biryani",
+        "offer": "Extra 10% OFF with Paytm",
+        "isAd": false
+      }
+    ],
+
+    "restaurants": [
+      {
+        "id": 201,
+        "title": "Paradise Biryani",
+        "imageUrl": [
+          "https://imgs.search.brave.com/CwqiQheq8UwxIQ0hVXsxvSB78nkQW0UTAjjF5dXwqJg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90Yi1z/dGF0aWMudWJlci5j/b20vcHJvZC9pbWFn/ZS1wcm9jL3Byb2Nl/c3NlZF9pbWFnZXMv/NTE1NTg3MGJmODYx/ZWJhZTkxOTNlYjRm/MjBjOTc2YjMvMGZi/Mzc2ZDFkYTU2YzA1/NjQ0NDUwMDYyZDI1/YzVjODQuanBlZw"
+        ],
+        "deliveryTime": "20-25 mins",
+        "rating": 4.6,
+        "distanceFromHere": "1.8 km",
+        "specialOrder": "Special Chicken Dum Biryani",
+        "offer": "Flat 20% OFF",
+        "isAd": true
+      },
+      {
+        "id": 202,
+        "title": "Biryani Blues",
+        "imageUrl": [
+          "https://imgs.search.brave.com/dCtw2BK81BYDhjvr4uhQbKN3XVDHs7CdU9KfkmwqOsc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/ZGVmX2NvbnRlbnRf/Y2F0ZWdvcnkvYmly/eWFuaS1ibHVlcy9i/aXJ5YW5pLWJsdWVz/LTk5Mi1xcXJ1ai5q/cGc_dz0zODQwJnE9/NzU"
+        ],
+        "deliveryTime": "30-40 mins",
+        "rating": 3.4,
+        "distanceFromHere": "2.9 km",
+        "specialOrder": "Lucknowi Chicken Biryani",
+        "offer": "₹150 OFF above ₹499",
+        "isAd": false
+      },
+      {
+        "id": 203,
+        "title": "Empire Restaurant",
+        "imageUrl": [
+          "https://imgs.search.brave.com/ml3meewIBNZ-nKl_fcMRt0-wOA0hg4KdRZn_UQYNN_Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXNp/emVyLm90c3RhdGlj/LmNvbS92My9waG90/b3MvNTM0MzU5ODkt/Mz93aWR0aD0xMjgw/JmhlaWdodD03MjAm/d2VicD10cnVl"
+        ],
+        "deliveryTime": "22-28 mins",
+        "rating": 4.2,
+        "distanceFromHere": "1.2 km",
+        "specialOrder": "Empire Special Chicken Biryani",
+        "offer": "Free Delivery",
+        "isAd": false
+      }
+    ]
+  }
+}

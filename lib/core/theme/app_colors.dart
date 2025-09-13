@@ -6,8 +6,8 @@ class AppColors {
   static const Color surface = Color(0xFF1E1E1E);
 
   // Brand
-  static const Color primary = Color(0xFFE23744); // Zomato Red
-  static const Color accent = Color(0xFFFFC107); // Amber
+  static const Color primary = Color(0xFFE23744);
+  static const Color accent = Color(0xFFFFC107); 
 
   // Text
   static const Color textPrimary = Colors.white;

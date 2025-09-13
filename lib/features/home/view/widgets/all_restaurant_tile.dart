@@ -134,7 +134,7 @@ class AllRestaurantTile extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    // Rating + For you
+                    // Rating
                     Column(
                       children: [
                         Container(
@@ -143,14 +143,13 @@ class AllRestaurantTile extends StatelessWidget {
                             vertical: 3,
                           ),
                           decoration: BoxDecoration(
-                            color: ratingColor, // dynamic based on rating
+                            color: ratingColor,
                             borderRadius: BorderRadius.circular(20.0),
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              // Rating text
                               Text(
                                 allRestaurant.rating.toString(),
                                 style: TextStyle(
@@ -161,20 +160,17 @@ class AllRestaurantTile extends StatelessWidget {
                               ),
                               const SizedBox(width: 4.0),
 
-                              // Star inside small circle
                               Container(
                                 height: 18,
                                 width: 18,
                                 decoration: BoxDecoration(
-                                  color: AppColors
-                                      .textPrimary, // white in your screenshot
+                                  color: AppColors.textPrimary,
                                   shape: BoxShape.circle,
                                 ),
                                 child: Icon(
                                   Icons.star,
                                   size: 14,
-                                  color:
-                                      ratingColor, // dynamic same as background
+                                  color: ratingColor,
                                 ),
                               ),
                             ],
@@ -190,7 +186,6 @@ class AllRestaurantTile extends StatelessWidget {
                         ),
                       ],
                     ),
-                    // const SizedBox(height: 6),
                   ],
                 ),
                 const SizedBox(height: 4),
@@ -232,7 +227,7 @@ class AllRestaurantTile extends StatelessWidget {
                 ),
                 const SizedBox(height: 6),
 
-                // Price info
+                // Offer
                 Row(
                   children: [
                     Image.asset(AppConstants.discountOfferImage, width: 16),

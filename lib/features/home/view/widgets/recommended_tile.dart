@@ -25,7 +25,7 @@ class RecommendedTile extends StatelessWidget {
         children: [
           Stack(
             children: [
-              // Image with curved cutout for rating
+              // Image
               ClipRRect(
                 borderRadius: BorderRadius.circular(14.0),
                 child: CachedNetworkImage(
@@ -92,7 +92,7 @@ class RecommendedTile extends StatelessWidget {
                 ),
               ),
 
-              // Rating badge overlapping bottom-left
+              // Rating badge
               Positioned(
                 bottom: 4,
                 left: 8,
@@ -102,14 +102,13 @@ class RecommendedTile extends StatelessWidget {
                     vertical: 3,
                   ),
                   decoration: BoxDecoration(
-                    color: ratingColor, // dynamic based on rating
+                    color: ratingColor,
                     borderRadius: BorderRadius.circular(20.0),
                   ),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      // Rating text
                       Text(
                         recommended.rating.toString(),
                         style: TextStyle(
@@ -120,12 +119,7 @@ class RecommendedTile extends StatelessWidget {
                       ),
                       const SizedBox(width: 4.0),
 
-                      // Star inside small circle
-                      Icon(
-                        Icons.star,
-                        size: 10,
-                        color: Colors.white, // dynamic same as background
-                      ),
+                      Icon(Icons.star, size: 10, color: Colors.white),
                     ],
                   ),
                 ),
@@ -133,9 +127,7 @@ class RecommendedTile extends StatelessWidget {
             ],
           ),
 
-          const SizedBox(
-            height: 12,
-          ), // Increased spacing to account for rating badge
+          const SizedBox(height: 12),
 
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8.0),

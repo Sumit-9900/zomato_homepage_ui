@@ -207,11 +207,69 @@ class CategoryTabBar extends StatelessWidget {
                         ),
                       )
                     : Center(
-                        child: Text(
-                          category.title,
-                          style: Theme.of(
-                            context,
-                          ).textTheme.titleLarge?.copyWith(fontSize: 24),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'TOP PICKS',
+                                style: TextStyle(
+                                  color: AppColors.textSecondary,
+                                  fontWeight: FontWeight.w500,
+                                  letterSpacing: 1.5,
+                                ),
+                              ),
+                              const SizedBox(height: 12),
+                              Expanded(
+                                child: GridView.builder(
+                                  itemCount: 4,
+                                  gridDelegate:
+                                      const SliverGridDelegateWithFixedCrossAxisCount(
+                                        crossAxisCount: 2,
+                                        mainAxisSpacing: 12,
+                                        crossAxisSpacing: 12,
+                                        childAspectRatio: 0.9,
+                                      ),
+                                  itemBuilder: (context, index) {
+                                    return Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(12),
+                                        color: AppColors.surface,
+                                        boxShadow: [
+                                          BoxShadow(
+                                            color: Colors.black12,
+                                            blurRadius: 4,
+                                            offset: Offset(2, 2),
+                                          ),
+                                        ],
+                                      ),
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: [
+                                          Icon(
+                                            Icons.restaurant_menu,
+                                            size: 40,
+                                            color: AppColors.textSecondary,
+                                          ),
+                                          const SizedBox(height: 8),
+                                          Text(
+                                            'Coming Soon',
+                                            style: TextStyle(
+                                              fontSize: 14,
+                                              fontWeight: FontWeight.w500,
+                                              color: AppColors.textPrimary,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       );
               }).toList(),
